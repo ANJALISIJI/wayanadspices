@@ -1,0 +1,9 @@
+{
+    "name": "mdh/mega_cosmetics",
+    "autoload": {
+        "psr-4": {
+            "Mdh\\MegaCosmetics\\": "src/"
+        }
+    },
+    "require": {}
+}
