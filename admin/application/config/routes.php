@@ -57,3 +57,12 @@ $route['translate_uri_dashes'] = FALSE;
 /*********** ADMIN DEFINED ROUTES *******************/
 
 $route['addcategory'] = 'Category/addCategory';
+$route['addsubcategory'] = 'Subcategory/addSubcategory';
+$route['addquality'] = 'Quality/addQuality';
+$route['addvarient'] = 'Varients/addVarient';
+$route['wholesalerlist'] = 'Wholesaler/listWholesaler';
+$route['orderlist'] = 'Order/listOrder';
+$route['userlist'] = 'User/listUsers';
+$route['productlist'] = 'Products/productList';
+$route['addproduct'] = 'Products/addProduct';
+

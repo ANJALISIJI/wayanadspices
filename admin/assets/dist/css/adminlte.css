@@ -6,7 +6,6 @@
  */
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
@@ -66,6 +65,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  text-transform:capitalize !important;
   background-color: #fff;
 }
 
@@ -2657,8 +2657,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #84b81a;
+  border-color: #84b81a;
   box-shadow: none;
 }
 
@@ -3165,9 +3165,8 @@ fieldset:disabled a.btn {
   line-height: 1.5;
   border-radius: 0.3rem;
 }
-
 .btn-sm, .btn-group-sm > .btn {
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 1.5rem !important;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem;

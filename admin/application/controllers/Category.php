@@ -5,8 +5,7 @@ class Category extends BaseController
 {
     public function addCategory()
     {
-        $data['category'] = True;
-        $data['addCategory'] = True;
+        $data['addcategory'] = True;
         $this->loadViews("category/add", $data);
     }
 }
