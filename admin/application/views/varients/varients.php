@@ -10,16 +10,15 @@
                                             
                                             <div class="col-md-3 mb-5">
                                                 <p class="mb-1">Enter Varient </p>
-                                                <input type="text" class="form-control ak" placeholder="Enter Varient" >
+                                                <input type="text" class="form-control ak" placeholder="Enter Varient " >
 
                                             </div>
                                             
                                             <div class="col-md-3 mt-4 ">
-                                                <a href="#" class="btn btn-success text-capitalize  ">  Add New Varient </a>
+                                                <a href="#" class="btn btn-success text-capitalize">  Add New Varient </a>
                 
                                             </div> 
                                             
- 
                                         </div>
                                         
                                     
@@ -37,7 +36,7 @@
                                             <tr>
                                               
                                                 <th >S.No</th>
-                                                <th >Quality</th>
+                                                <th >Varient</th>
                                                 <th ><span id="action1" >Action</span></th>
 
 

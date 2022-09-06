@@ -2,7 +2,7 @@
                             <div class=" mb-3 pt-4">
                                 <h4>Add New Subcategory</h4>
                             </div>   
-                        </div>
+</div>
                         <div class="col ">
                             <div class="card ">
                                 <div class="card-body pt-5  pb-3  ">
@@ -10,7 +10,7 @@
                                             
                                             <div class="col-md-3 mb-5">
                                                 <p class="mb-1">Enter Sub Category </p>
-                                                <input type="text" class="form-control ak" placeholder="Enter State Name" >
+                                                <input type="text" class="form-control ak" placeholder="Enter subcategory" >
 
                                             </div>
                                             
