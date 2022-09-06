@@ -5,12 +5,14 @@ class Products extends BaseController
 {
     public function productList()
     {
-        $data['productlist'] =True;
+        $data['products'] =True;
+        $data['productList'] =True;
         $this->loadViews("products/productlist", $data);
     }
     public function addProduct()
     {
-        $data['addproduct'] =True;
+        $data['products'] =True;
+        $data['addProduct'] =True;
         $this->loadViews("products/addproduct", $data);
     }
 }

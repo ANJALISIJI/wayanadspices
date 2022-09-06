@@ -7,48 +7,50 @@
                     <div class="col-xl pt-5">
                             <div class="card">
                                 <div class="card-body p-5 ">
-                                    <div class="table-responsive" style="min-height:25vh ;">
                                         <div class="row">
                                             <div class="col-md-3 mb-5">
-                                                <p class="mb-1">Country </p>
+                                                <p class="mb-1">Product Name </p>
+                                                <input type="text" class="form-control" placeholder="Enter Product Name" name="name" >
+                                                
+                                            </div>
+                                            <div class="col-md-3 mb-5">
+                                                <p class="mb-1">Category</p>
                                                 <select class="form-control ak" aria-label="Default select example">
                                                     <option selected>Select type</option>
                                                     <option value="1">Select type 1</option>
                                                   </select> 
                                             </div>
                                             <div class="col-md-3 mb-5">
-                                                <p class="mb-1">State</p>
+                                                <p class="mb-1">Sub Category </p>
                                                 <select class="form-control ak" aria-label="Default select example">
                                                     <option selected>Select type</option>
                                                     <option value="1">Select type 1</option>
                                                   </select> 
                                             </div>
                                             <div class="col-md-3 mb-5">
-                                                <p class="mb-1">District </p>
+                                                <p class="mb-1">Quality Type</p>
                                                 <select class="form-control ak" aria-label="Default select example">
-                                                    <option selected>Select type</option>
-                                                    <option value="1">Select type 1</option>
-                                                  </select> 
-                                            </div>
-                                            <div class="col-md-3 mb-5">
-                                                <p class="mb-1">Location/City </p>
-                                                <select class="form-control ak" aria-label="Default select example">
-                                                    <option selected>Select type</option>
-                                                    <option value="1">Select type 1</option>
+                                                    <option selected>Select quality type</option>
+                                                    <option value="1">first quality</option>
+                                                    <option value="1">second quality</option>
+                                                    <option value="1">third quality</option>
                                                   </select> 
                                             </div>
 
                                         </div>
                                         <div class="row align-items-center">
                                             <div class="col-md-3 mb-3">
-                                                <p class="mb-1">Restaurant</p>
-                                                <select class="form-control ak" aria-label="Default select example">
-                                                    <option selected>Select type</option>
-                                                    <option value="1">Select type 1</option>
-                                                  </select> 
+                                                <p class="mb-1">Image</p>
+                                                <input type="file" class="form-control p-1" placeholder="Enter Product Name" name="name" >
+                                                 
                                             </div> 
+                                            <div class="col-md-3 mb-5">
+                                                <p class="mb-1">Price </p>
+                                                <input type="text" class="form-control" placeholder="Enter Price " name="name" >
+                                                
+                                            </div>
                                             <div class="col-md-3 pt-4 mb-2">
-                                                <a href="#" class="btn btn-success text-capitalize py-2">search</a>
+                                                <a href="#" class="btn btn-success  text-capitalize ">search</a>
                                             </div>                                        
 
                                             
@@ -56,6 +58,5 @@
                                     </div>
                                     
                               
-                                </div>
                             </div>
                         </div>

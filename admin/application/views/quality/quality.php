@@ -1,8 +1,8 @@
 <div class="d-flex ml-2 align-items-center">
                             <div class=" mb-3 pt-4">
-                                <h4>Quality Standars</h4>
+                                <h4>Quality Standards</h4>
                             </div>   
-                        </div>
+</div>
                         <div class="col ">
                             <div class="card ">
                                 <div class="card-body pt-5  pb-3  ">
@@ -10,7 +10,7 @@
                                             
                                             <div class="col-md-3 mb-5">
                                                 <p class="mb-1">Enter Quality </p>
-                                                <input type="text" class="form-control ak" placeholder="Enter quality" >
+                                                <input type="text" class="form-control ak" placeholder="Enter quality type" >
 
                                             </div>
                                             
@@ -77,7 +77,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
-                                                    <td>turmeric</td>
+                                                    <td>3rd quality</td>
                                                     <td>
                                                         <a href="#" class="btn btn-warning btn-sm">Edit</a>
                                                         <a href="#" class="btn btn-danger btn-sm">Delete</a>
@@ -85,16 +85,8 @@
                                                     </td>
 
                                                 </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>turmeric</td>
-                                                    <td>
-                                                        <a href="#" class="btn btn-warning btn-sm">Edit</a>
-                                                        <a href="#" class="btn btn-danger btn-sm">Delete</a>
-
-                                                    </td>
-
-                                                </tr>
+                                                
+                                                
                                              
                                             </tbody>
                                         </table>
